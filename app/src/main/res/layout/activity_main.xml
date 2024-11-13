@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar con imagen y nombre de usuario -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagen_perfil_chat"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/N_usuario_chat"
+                android:text="@string/N_usuario_chat"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imagen_perfil_chat"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Lista de chats -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_chats"
+        android:layout_below="@id/toolbar_chat"
+        android:layout_above="@id/RL_Enviar_Mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Enviar mensajes -->
+    <RelativeLayout
+        android:id="@+id/RL_Enviar_Mensajes"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Adjuntar una imagen -->
+        <ImageButton
+            android:id="@+id/IB_Adjuntar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/adjuntar_imagen"
+            android:layout_alignParentStart="true"/>
+
+        <!-- Escribir un mensaje -->
+        <EditText
+            android:id="@+id/Et_mensaje"
+            android:hint="@string/Et_mensaje"
+            android:layout_toEndOf="@id/IB_Adjuntar"
+            android:layout_toStartOf="@id/IB_Enviar"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <!-- Botón para grabar audio -->
+        <ImageButton
+            android:id="@+id/IB_Grabar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:layout_toStartOf="@id/IB_Enviar"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"/>
+
+        <!-- Enviar el mensaje -->
+        <ImageButton
+            android:id="@+id/IB_Enviar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/enviar_mensaje"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

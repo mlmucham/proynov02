@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">proynov02</string>
+
+
+    <string name="Btn_ir_logeo">Ingresar con Email</string>
+    <string name="Btn_login_google">Ingresar con Google</string>
+
+    <string name="R_Et_nombre_usuario">Nombre de usuario</string>
+    <string name="R_Et_email">Correo electrónico</string>
+    <string name="R_Et_password">Contraseña</string>
+    <string name="R_Et_r_password">Repita su contraseña</string>
+    <string name="Btn_registrar">Registrar</string>
+
+    <string name="menu_principal">Menú principal</string>
+    <string name="menu_perfil">Perfil de usuario</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_salir">Cerrar sesión</string>
+
+    <string name="menu_visitar_perfil">Visitar perfil</string>
+    <string name="menu_visitar">Visitar perfil</string>
+
+
+    <string name="L_Et_email">Correo electrónico</string>
+    <string name="L_Et_password">Contraseña</string>
+    <string name="Txt_olvide_password">Olvidé mi contraseña</string>
+    <string name="Btn_login">Ingresar</string>
+    <string name="TXT_no_cuenta">¿No tienes una cuenta?</string>
+    <string name="TXT_ir_registro">Registrarme</string>
+
+    <string name="Txt_instrucciones">Ingrese su correo electrónico registrado para recibir las instrucciones para reestablecer su contraseña</string>
+    <string name="Btn_enviar_correo">Enviar</string>
+
+    <string name="Nombre_usuario">Nombre de usuario</string>
+
+    <string name="Item_nombre_usuario">Nombre de usuario</string>
+    <string name="Item_email_usuario">Email de usuario</string>
+    <string name="Txt_ultimo_mensaje"></string>
+
+    <string name="Et_buscar_usuario">Buscar usuario</string>
+
+    <!--Perfil de usuario-->
+    <string name="P_n_usuario">Nombre de usuario</string>
+    <string name="P_proveedor_txt">Proveedor: </string>
+    <string name="P_proveedor"> -- </string>
+    <string name="P_email">Email</string>
+    <string name="P_nombres">Nombres</string>
+    <string name="P_apellidos">Apellidos</string>
+    <string name="P_profesion">Profesión</string>
+    <string name="P_domicilio">Domicilio</string>
+    <string name="P_edad">Edad</string>
+    <string name="P_telefono">Telefono</string>
+    <string name="Btn_Guardar">Guardar</string>
+
+    <string name="Btn_verificar">No verificado</string>
+
+    <!--Cd - Establecer teléfono-->
+    <string name="Establecer_Telefono">Escriba su número</string>
+    <string name="Btn_aceptar_Telefono">Aceptar</string>
+
+    <!--Cd - Cuenta verificada-->
+    <string name="CuentaVerificadaTXT">Cuenta verificada</string>
+    <string name="BtnEntendidoVerificado">Entendido</string>
+
+    <!--CD - visualizar imagen-->
+    <string name="Btn_cerrar_v">Cerrar</string>
+
+    <!--Editar imagen perfil-->
+    <string name="BtnElegirImagenDe">Elegir imagen de</string>
+    <string name="BtnActualizarImagen">Actualizar imagen</string>
+
+    <!--Cuadro de diálogo seleccionar imagen de-->
+    <string name="Txt_seleccionar_imagen">Seleccionar imagen de: </string>
+    <string name="Btn_abrir_galeria">Galería</string>
+    <string name="Btn_abrir_camara">Cámara</string>
+
+    <!--Chat-->
+    <string name="N_usuario_chat">Nombre de usuario</string>
+    <string name="Et_mensaje">Escriba un mensaje</string>
+
+    <string name="PV_Perfil_TXT">Perfil de usuario</string>
+    <string name="PV_NombreU">Nombre de usuario</string>
+    <string name="PV_EmailU">Email de usuario</string>
+    <string name="PV_Uid_TXT">Identificador: </string>
+    <string name="PV_Uid">Uid</string>
+
+    <string name="PV_nombres_TXT">Nombres: </string>
+    <string name="PV_nombres"> -- </string>
+    <string name="PV_apellidos_TXT">Apellidos: </string>
+    <string name="PV_apellidos"> -- </string>
+    <string name="PV_profesion_TXT">Profesión: </string>
+    <string name="PV_profesion"> -- </string>
+    <string name="PV_telefono_TXT">Teléfono: </string>
+    <string name="PV_telefono"> -- </string>
+    <string name="PV_edad_TXT">Edad: </string>
+    <string name="PV_edad"> -- </string>
+    <string name="PV_domicilio_TXT">Domicilio: </string>
+    <string name="PV_domicilio"> -- </string>
+    <string name="PV_proveedor_TXT">Proveedor: </string>
+    <string name="PV_proveedor"> -- </string>
+
+    <string name="Btn_llamar">Llamar</string>
+    <string name="Btn_enviar_sms">Enviar sms</string>
+
+    <!--Item chat-->
+    <string name="TXT_ver_mensaje">Hola, ¿Cómo estás?</string>
+
+    <!--Info app-->
+    <string name="Desarrollador">Desarrollado por: Red System Studio</string>
+    <string name="CorreoSoporte">Soporte: redsystem@gmail.com</string>
+    <string name="Version">Versión: 1.0</string>
+    <string name="EntendidoInfo">Entendido</string>
+
+</resources>
